@@ -189,7 +189,7 @@ void skeleton(cv::Mat &Input) //Input-binary image
 		border.clear();
 	}
 
-	//re-calculate border
+	
 	for (int m = 1; m<row - 1; ++m)
 	{
 		for (int n = 1; n<col - 1; ++n)
